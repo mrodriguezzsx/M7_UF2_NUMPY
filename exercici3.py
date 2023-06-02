@@ -12,6 +12,7 @@ def generacioMatriu(array):
     # Apliquem la peticio
     array = array.reshape(dimensio, quantitat)
     print(array)
+    print()
 
 # Funcio per trobar el valor mes alt
 def valorMax(array):
@@ -21,3 +22,4 @@ def valorMax(array):
 def valorMin(array):
     minNum = np.min(array)
     print("El valor minim de l'array es: ", minNum)
+    print()
