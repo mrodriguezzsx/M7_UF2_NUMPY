@@ -6,5 +6,9 @@ def diagonal():
     print('Exercici 1')
     print(diagonal)
     print()
-    np.save('exercici1.npy',diagonal)
+    print('Dimensio de la Matriu: ', diagonal.ndim)
+    print('Tamany de la Matriu: ', diagonal.shape)
+    print("Numero total d'elements: ", diagonal.size)
+    print("Tipus d'elements interns: ", diagonal.dtype)
+    np.save('exercici1.npy', diagonal)
 
